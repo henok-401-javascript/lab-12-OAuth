@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Auth Test</title>
-    </head>
+  <head>
+    <title>Auth Test</title>
+  </head>
 
-    <body>
-        <main>
-            <a id="oauth" href="#">Login</a>
-        </main>
+  <body>
+    <main>
+      <a id="oauth" href="#">Login</a>
+    </main>
 
-        <script>
-            // TODO: What is this URL used for?
-            let URL = 'https://www.linkedin.com/uas/oauth2/authorization';
+    <script>
+      // DONE: What is this URL used for?
+      // This line is a URL will redirecting to the linkedin page.
+      let URL = 'https://www.linkedin.com/uas/oauth2/authorization';
 
-            // TODO: What do each of these key-value pairs mean?
-            let options = {
-                client_id: '78b2vfbbzwutsk',
-                redirect_uri: 'http://localhost:3000/oauth',
-                scope: 'read:user',
-                state: 'asldfjdfs',
-            };
+      // DONE: What do each of these key-value pairs mean?
+      //first line is my id to get in to the linkedin application.
+      //Second line is  call back will receive authorization code.
+      //Third line is describing how we want to manipulate the data.
+      //fourth line is used to protect against cross-site request.
+      let options = {
+        client_id: '78b2vfbbzwutsk',
+        redirect_uri: 'http://localhost:3000/oauth',
+        scope: 'read:user',
+        state: 'asldfjdfs',
+      };
 
-            // TODO: What is this map function doing?
-            let QueryString = Object.keys(options)
-                .map((key) => {
-                    return `${key}=` + encodeURIComponent(options[key]);
-                })
-                .join('&');
+      // DONE: What is this map function doing?
+      //This line of function is using the "options" object as a property and append it to the URL above.
+      let QueryString = Object.keys(options)
+        .map((key) => {
+          return `${key}=` + encodeURIComponent(options[key]);
+        })
+        .join('&');
 
-            let authURL = `${URL}?${QueryString}`;
+      let authURL = `${URL}?${QueryString}`;
 
-            let link = document.getElementById('oauth');
-            link.setAttribute('href', authURL);
-        </script>
-    </body>
+      let link = document.getElementById('oauth');
+      link.setAttribute('href', authURL);
+    </script>
+  </body>
 </html>
