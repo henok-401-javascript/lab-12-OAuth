@@ -21,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/henok-401-javascript/lab-12-OAuth/issues"
   },
-  "homepage": "https://github.com/henok-401-javascript/lab-12-OAuth#readme"
+  "homepage": "https://github.com/henok-401-javascript/lab-12-OAuth#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "superagent": "^5.2.2"
+  }
 }
