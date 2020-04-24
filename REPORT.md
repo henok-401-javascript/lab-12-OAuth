@@ -1,6 +1,6 @@
 # OAuth Comparative Analysis - < LinkedIn Corporation >
 
-Research Conducted By: < Henok, Eyob, Thomas >
+#### Research Conducted By: < Henok, Eyob, Thomas >
 
 ## General Comments
 
