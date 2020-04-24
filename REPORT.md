@@ -30,13 +30,13 @@
 
 ## Ramp-Up Projections
 
-< How long would/should it take a team of mid-junior developers to implement? >
+_How long would/should it take a team of mid-junior developers to implement?_
 
 - If they are familiar with oauth, the implementation is very straight forward. They should be able to implement within a day.
 
 ## Community Support and Adoption levels
 
-< How popular is this provider? What big companies are running on it? >
+_How popular is this provider? What big companies are running on it?_
 
 - LinkedIn is the most popular and Lets you Develop faster with well documented and provied authentication, authorization & user management. Linkedin account is not as pervasive as having a Google or a Twitter account. Google supports common OAuth 2.0 scenarios such as those for web server, client-side, installed, and limited-input device applications
 
@@ -46,12 +46,13 @@
 
 ## Code Demos
 
-- < Deployed Heroku application link >
-- < Code repo link >
+-  [heroku]()
+-  [Code repo link]()
+
 
 ## Operating Instructions
 
-< If someone were to download your repo (above), what steps do they need to take to run the application >
+_If someone were to download your repo (above), what steps do they need to take to run the application_ 
 
 - Create a new app on https://linkedin.com/ (a Linkedin is required)
 - Configure .env (see readme for specific variables and definitions)
