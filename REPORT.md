@@ -47,7 +47,7 @@ _How popular is this provider? What big companies are running on it?_
 ## Code Demos
 
 - [heroku](https://lab-12-oauth.herokuapp.com/)
-- [Code repo link]()
+- [Code repo link](https://github.com/henok-401-javascript/lab-12-OAuth/pull/8)
 
 ## Operating Instructions
 
