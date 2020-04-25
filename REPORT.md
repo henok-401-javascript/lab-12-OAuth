@@ -1,10 +1,10 @@
-# OAuth Comparative Analysis - LinkedIn Corporation 
+# OAuth Comparative Analysis - LinkedIn Corporation
 
-#### Research Conducted By: Henok, Eyob, Thomas 
+#### Research Conducted By: Henok, Eyob , Thomas
 
 ## General Comments
 
-* This application will be simplistic in nature, allowing users to be created in a temporary (non-persistant) database once they’ve authorized and logged in via a third party OAuth provider 
+- This application will be simplistic in nature, allowing users to be created in a temporary (non-persistant) database once they’ve authorized and logged in via a third party OAuth provider
 
 ## Pros and Cons
 
@@ -22,7 +22,7 @@
 - Less interaction with Database.
 - Limited integration with other providers.
 - Allows limited access to the user's data.
-- Needing to make anonymous alternate accounts can be just as annoying as having to  toggle dozens of site privacy settings each month.
+- Needing to make anonymous alternate accounts can be just as annoying as having to toggle dozens of site privacy settings each month.
 
 ## Documentation
 
@@ -46,13 +46,12 @@ _How popular is this provider? What big companies are running on it?_
 
 ## Code Demos
 
--  [heroku]()
--  [Code repo link]()
-
+- [heroku](https://lab-12-oauth.herokuapp.com/)
+- [Code repo link]()
 
 ## Operating Instructions
 
-_If someone were to download your repo (above), what steps do they need to take to run the application_ 
+_If someone were to download your repo (above), what steps do they need to take to run the application_
 
 - Create a new app on https://linkedin.com/ (a Linkedin is required)
 - Configure .env (see readme for specific variables and definitions)
