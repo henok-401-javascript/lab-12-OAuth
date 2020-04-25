@@ -35,6 +35,7 @@
 #### UML
 
 ![UML Diagram]() -->
+
 # lab-12-OAuth
 
 ### Author: Henok, Eyob and Thomas
@@ -43,37 +44,36 @@
 
 ### submission PR
 
--  [submission PR]()
--  [heroku]()
--  [Swagger Hub](http://localhost:3000/api-docs#/)
--  ci/cd (GitHub Actions)
--  back-end server url (when applicable)
--  front-end application (when applicable)
+- [submission PR](https://github.com/henok-401-javascript/lab-12-OAuth/pull/8)
+- [heroku](https://lab-12-oauth.herokuapp.com/)
+- [Swagger Hub](http://localhost:3000/api-docs#/)
+- ci/cd (GitHub Actions)
+- back-end server url (when applicable)
+- front-end application (when applicable)
 
 ### Setup
 
 ### .env requirements (where applicable)
+
 i.e.
 
--   PORT - Port Number
--   MONGODB_URI - URL to the running mongo instance/db 
--   LINKEDIN_CLIENT_SECRET - Provided by LinkedIn User Application 
--   LINKEDIN_CLIENT_ID - Provided by LinkedIn User Application
-
+- PORT - Port Number
+- MONGODB_URI - URL to the running mongo instance/db
+- LINKEDIN_CLIENT_SECRET - Provided by LinkedIn User Application
+- LINKEDIN_CLIENT_ID - Provided by LinkedIn User Application
 
 ### How to initialize/run your application (where applicable)
 
--   npm start
--   nodemon index.js
-
+- npm start
+- nodemon index.js
 
 ### How to use your library (where applicable)
 
 ### Tests
 
--  unit tests: 'npm test'
--  lint test: 'npm run lint'
--  nodemon: server refresh
+- unit tests: 'npm test'
+- lint test: 'npm run lint'
+- nodemon: server refresh
 
 * UML
-![lab-12-OAuth - UML](./lib/assets/...)
+  ![lab-12-OAuth - UML](./lib/assets/...)
