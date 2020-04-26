@@ -12,7 +12,7 @@
     <script>
       // DONE: What is this URL used for?
       // This line is a URL will redirecting to the linkedin page.
-      let URL = 'https://www.linkedin.com/oauth/v2/authorization';
+      let URL = ' https://accounts.google.com/o/oauth2/v2/auth';
 
       // DONE: What do each of these key-value pairs mean?
       //first line is my id to get in to the linkedin application.
@@ -20,9 +20,11 @@
       //Third line is describing how we want to manipulate the data.
       //fourth line is used to protect against cross-site request.
       let options = {
-        client_id: '78b2vfbbzwutsk',
+        client_id:
+          '868489342039-sj6u5m3if0iauf68lu37mf738kcortqn.apps.googleusercontent.com',
         redirect_uri: 'http://localhost:3000/oauth',
-        scope: 'read:user',
+        response_type: 'code',
+        scope: 'https://www.googleapis.com/auth/userinfo.profile',
         state: 'asldfjdfs',
       };
 
